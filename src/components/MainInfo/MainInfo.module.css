@@ -1,0 +1,22 @@
+.img {
+   height: 80vh;
+  
+}
+
+.box {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.txtBox {
+    padding: 1rem 0;
+}
+
+.h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    line-height: 2rem;
+    text-align: left;
+    font-size: 3rem;
+}
