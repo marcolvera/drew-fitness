@@ -1,12 +1,12 @@
 import React from 'react';
 import Nav from '../../components/Nav/Nav';
-import MainInfo from '../../components/MainInfo/MainInfo';
+import MainBack from '../../components/MainBack/MainBack';
 
 const home = () => {
     return(
         <div>
             <Nav />
-            <MainInfo />
+            <MainBack />
         </div>
     )
 };
