@@ -1,0 +1,31 @@
+.h1 {
+    font-size: 55px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7rem;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* flex-direction: column; */
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    /* Center box since parent hieght is 100vh */
+    height: 100%;
+    padding: 0 4rem;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.txtBox {
+    text-align: left;
+}

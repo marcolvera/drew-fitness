@@ -7,6 +7,7 @@ const MainInfo = () => {
     return(
         <div className={styles.box}>
             <Nav />
+            <MainFill />
            
         </div>
     )
