@@ -7,13 +7,10 @@
 .box {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    text-align: center;
     color: white;
     font-family: 'Open Sans', sans-serif;
-    /* Center box since parent hieght is 100vh */
     height: 100%;
-    padding: 0 4rem;
+    padding: 0 10rem;
 }
 
 .btn {
