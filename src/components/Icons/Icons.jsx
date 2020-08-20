@@ -1,22 +1,25 @@
 import React from 'react';
 import styles from './Icons.module.css';
+import FitnessCenterIcon from '@material-ui/icons/FitnessCenter';
+import FastfoodIcon from '@material-ui/icons/Fastfood';
+import MobileFriendlyIcon from '@material-ui/icons/MobileFriendly';
 
 const Icons = () => {
     return (
         <div className={styles.box}>
             <div className={styles.subBox}>
-                <img className={styles.img} src="https://i.imgur.com/DKgdzsn.png" alt=""/>
-                <h3 className={styles.h3}>Investment Banking</h3>
+                <FitnessCenterIcon style={{ fontSize: 70 }} />
+                <h3 className={styles.h3}><span>Personal</span> Training</h3>
                 <p className={styles.p}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, sapiente!</p>
             </div>
             <div className={styles.subBox}>
-                <img className={styles.img} src="https://i.imgur.com/OeGnZ4i.png" alt=""/>
-                <h3 className={styles.h3}>Portfolio Management</h3>
+                <FastfoodIcon style={{ fontSize: 70}} />
+                <h3 className={styles.h3}><span>Nutrition</span> Planning</h3>
                 <p className={styles.p}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, sapiente!</p>
             </div>
             <div className={styles.subBox}>
-                <img className={styles.img} src="https://i.imgur.com/Mdi2oQJ.png" alt=""/>
-                <h3 className={styles.h3}>Tax &amp; Custodial</h3>
+                <MobileFriendlyIcon style={{ fontSize: 70}} />
+                <h3 className={styles.h3}><span>Online</span> Training</h3>
                 <p className={styles.p}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, sapiente!</p>
             </div>
         </div>
