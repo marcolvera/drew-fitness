@@ -12,9 +12,7 @@ const MainFill = () => {
                <h1 className={styles.h1}>TRAINER</h1>
                <Link className={styles.btn}>BOOK NOW</Link>
            </div>
-           <div>
-               <img className={styles} src="/back.jpg" alt=""/>
-           </div>
+       
         </div>
     )
 }
