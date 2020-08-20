@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './Blog.module.css';
+import styles from './Card2.module.css';
 import { Link } from 'react-router-dom';
 
-const Blog = () => {
+const Card2 = () => {
     return (
         <div className={styles.row}>
             <div className={styles.column}>
@@ -12,16 +12,16 @@ const Blog = () => {
                     <p className={styles.p}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos perspiciatis 
                     ea ullam quidem officiis, assumenda sunt ducimus, laudantiume quaerat deserunt soluta placeat dolorum, quis mollitia 
                     voluptates maiores saepe possimus velit quibusdam. Delectus perspiciatis expedita aliquid.</p>
-                    <Link className={styles.btn}>READ OUR BLOG</Link>
+                    <Link className={styles.btn}>READ MORE</Link>
                 </div>
             </div>
             <div className={styles.column}>
                 <div className={styles.column1}>
-                    <img className={styles.img} src="https://i.imgur.com/MymeI1w.jpg" alt=""/>
+                    <img className={styles.img} src="card2.jpg" alt=""/>
                 </div>
             </div>
         </div>
     )
 }
 
-export default Blog
+export default Card2
