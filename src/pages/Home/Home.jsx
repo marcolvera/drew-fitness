@@ -4,6 +4,7 @@ import MainBack from '../../components/MainBack/MainBack';
 import Icons from '../../components/Icons/Icons';
 import Card from '../../components/Card/Card';
 import Card2 from '../../components/Card2/Card2';
+import Card3 from '../../components/Card3/Card3';
 
 const home = () => {
     return(
@@ -12,6 +13,7 @@ const home = () => {
             <MainBack />
             <Icons />
             <Card />
+            <Card3 />
             <Card2 />
         </div>
     )
