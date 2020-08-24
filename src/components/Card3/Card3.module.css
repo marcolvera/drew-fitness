@@ -1,3 +1,7 @@
+.container {
+    padding: 1rem 0;
+}
+
 .row {
     display: flex;
     justify-content: space-evenly;
@@ -8,7 +12,7 @@
 
 .img {
     width: 32%;
-    height: 20%;
+    height: 15%;
     
 }
 
