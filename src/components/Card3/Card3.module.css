@@ -1,14 +1,46 @@
-.h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 4px;
+   
 }
 
-.toptxt {
-    display: flex;
-    justify-content: center;
+
+.img {
+    width: 32%;
+    height: 20%;
+    
 }
 
 .box {
-    display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;;
 }
+
+:hover.img {
+    opacity: .7;
+}
+
+.h4 {
+    font-weight: 300;
+    margin-bottom: 1.3rem;
+}
+
+.h2 {
+    font-weight: 300;
+    margin-bottom: 1.3rem;
+    font-size: 2.5rem;
+}
+
+.p {
+    margin-bottom: 2rem;
+}
+
+/* Mobile */
+@media(max-width: 768px) {
+    .box {
+        display: none;
+    }
+ }
