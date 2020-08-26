@@ -44,7 +44,12 @@
 
 /* Mobile */
 @media(max-width: 768px) {
-    /* .box {
-        display: none;
-    } */
+    .row {
+        flex-direction: column;
+        padding: 0 4px;
+    }
+
+    .img {
+        width: 100%;
+    }
  }
