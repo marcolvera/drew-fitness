@@ -28,7 +28,7 @@
 
 .column2 {
     height: 100%;
-    background-color: red;
+    background-color: black;
     color: white;
     display: flex;
     flex-direction: column;
@@ -55,8 +55,8 @@
 .btn {
     text-decoration: none;
     background: red;
-    border: 1px solid white;
-    border-radius: white 5px;
+    /* border: 1px solid white; */
+    /* border-radius: white 5px; */
     color: white;
     padding: 10px 30px;     
     font-family: 'Open Sans', sans-serif;
