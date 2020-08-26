@@ -15,13 +15,13 @@ const Card3 = () => {
             <div className>
                 <div className={styles.row}>
                     <img className={styles.img} src="pic1.jpg" alt=""/>
-                    <img className={styles.img} src="pic2.jpg" alt=""/>
+                    <img className={styles.img} src="pic8.jpg" alt=""/>
                     <img className={styles.img} src="pic3.jpg" alt=""/>
                 </div>
                 <div className={styles.row}>
-                    <img className={styles.img} src="https://i.imgur.com/NdzRZB6.jpg" alt=""/>
-                    <img className={styles.img} src="https://i.imgur.com/I7x4Ezx.jpg" alt=""/>
-                    <img className={styles.img} src="https://i.imgur.com/2XiK6CN.jpg" alt=""/>
+                    <img className={styles.img} src="pic4.jpg" alt=""/>
+                    <img className={styles.img} src="pic6.jpg" alt=""/>
+                    <img className={styles.img} src="pic5.jpg" alt=""/>
                 </div>
             </div>
         </div>

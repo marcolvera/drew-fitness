@@ -5,13 +5,13 @@
 .row {
     display: flex;
     justify-content: space-evenly;
-    padding: 0 4px;
+    padding: 1px 4px;
    
 }
 
 
 .img {
-    width: 32%;
+    width: 33%;
     height: 15%;
     
 }
