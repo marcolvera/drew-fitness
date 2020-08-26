@@ -5,6 +5,7 @@ import Icons from '../../components/Icons/Icons';
 import Card from '../../components/Card/Card';
 import Card2 from '../../components/Card2/Card2';
 import Card3 from '../../components/Card3/Card3';
+import Footer from '../../components/Footer/Footer';
 
 const home = () => {
     return(
@@ -15,6 +16,7 @@ const home = () => {
             <Card />
             <Card3 />
             <Card2 />
+            <Footer />
         </div>
     )
 };
